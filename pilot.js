@@ -72,7 +72,7 @@ document.getElementById('createSession').addEventListener('click', () => {
             })
         }
 
-        setInterval(sendData, 750)
+        setInterval(sendData, 1000)
         
     })
 })
