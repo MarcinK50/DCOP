@@ -46,7 +46,7 @@ document.getElementById("connect").addEventListener('click', () => {
                 var key = prop[0]
                 var value = prop[1]
                 var path = values[key]
-                fetch(`http://localhost:3030/json${path}`, {
+                fetch(`http://localhost:8080/json${path}`, {
                     method: 'POST',
                     headers: {
                         "Content-Type": "application/x-www-form-urlencoded",
